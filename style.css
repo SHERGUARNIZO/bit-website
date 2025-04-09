@@ -246,3 +246,88 @@ main {
     color: #ffffff;
     text-decoration: underline;
   }
+
+  #contacto {
+    background-color: #ffe8f4;
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  #contacto h2 {
+    color: #d10087;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .formulario-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .campo-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .campo-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 0.95rem;
+  }
+  
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .formulario-contacto input:focus,
+  .formulario-contacto textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #d10087;
+    border-color: #d10087;
+  }
+  
+  .formulario-contacto button {
+    background-color: #d10087;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario-contacto button:hover {
+    background-color: #a5006c;
+  }
+  
+  .formulario-contacto p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #d10087;
+  }
+  
+  .formulario-contacto a {
+    color: #d10087;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .formulario-contacto a:hover {
+    text-decoration: underline;
+  }
