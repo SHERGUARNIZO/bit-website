@@ -331,3 +331,127 @@ main {
   .formulario-contacto a:hover {
     text-decoration: underline;
   }
+ /* ---------------------------------------------
+   Adaptabilidad para distintos tamaños de pantalla
+   --------------------------------------------- */
+
+/* Teléfonos pequeños (menos de 576px) */
+@media screen and (max-width: 575px) {
+  .contenedor {
+    padding: 10px;
+  }
+
+  .bienvenida {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bienvenida h1 {
+    font-size: 1rem;
+  }
+
+  .video-topo,
+  .galeria,
+  .imagenes-topografia,
+  .historia-topo {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .historia-topo,
+  .imagenes-topografia {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Teléfonos medianos y pequeños (576px - 767px) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .contenedor {
+    padding: 15px;
+  }
+
+  .bienvenida h1 {
+    font-size: 1.1rem;
+  }
+
+  .galeria img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .historia-topo,
+  .imagenes-topografia {
+    width: 100%;
+  }
+
+  .video-topo {
+    flex-direction: column;
+  }
+}
+
+/* Tablets pequeñas y medianas (768px - 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .contenedor {
+    padding: 20px;
+  }
+
+  .galeria img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .historia-topo {
+    width: 100%;
+  }
+
+  .imagenes-topografia {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .imagenes-topografia img {
+    width: 45%;
+  }
+}
+
+/* Pantallas grandes (992px - 1199px) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .contenedor {
+    max-width: 1000px;
+  }
+
+  .bienvenida h1 {
+    font-size: 1.2rem;
+  }
+
+  .historia-topo {
+    width: 45%;
+  }
+
+  .imagenes-topografia {
+    width: 45%;
+  }
+}
+
+/* Pantallas muy grandes (1200px en adelante) */
+@media screen and (min-width: 1200px) {
+  .contenedor {
+    max-width: 1200px;
+  }
+
+  .bienvenida h1 {
+    font-size: 1.4rem;
+  }
+
+  .galeria img {
+    width: 140px;
+    height: 140px;
+  }
+}
