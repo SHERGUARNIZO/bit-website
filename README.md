@@ -11,7 +11,7 @@ En este sitio podrás conocer un poco más sobre mí a través de:
 - 🧭 Una navegación simple y amigable
 - 🖼️ Imágenes y videos que representan mis pasatiempos y proyectos
 - 🎨 Un diseño con paleta juvenil y animaciones
-- 💬 Secciones interactivas sobre quién soy, qué me gusta y qué me inspira
+-
 
 ---
 
